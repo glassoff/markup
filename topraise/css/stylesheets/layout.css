@@ -1,0 +1,327 @@
+@charset "IBM866";
+/* ruble fonts */
+@font-face {
+  font-family: 'Rubl-Verdana';
+  src: url("../fonts/rub_verdana/alsrubl-verdana-italic.eot");
+  src: url("../fonts/rub_verdana/alsrubl-verdana-italic.eot?#iefix") format("embedded-opentype"), url("../fonts/rub_verdana/alsrubl-verdana-italic.woff") format("woff"), url("../fonts/rub_verdana/alsrubl-verdana-italic.ttf") format("truetype"), url("../fonts/rub_verdana/alsrubl-verdana-italic.svg#ALSRublItalic") format("svg");
+  font-weight: normal;
+  font-style: italic;
+}
+
+/* line 20, ../sass/layout.scss */
+body {
+  font-family: Verdana, sans-serif;
+  font-size: 10pt;
+  line-height: 1.25;
+}
+
+/* line 26, ../sass/layout.scss */
+button::-moz-focus-inner {
+  /* убираем внутренний отступ у кнопки в FF, который зарезервирован для рамки при фокусе */
+  padding: 0;
+  border: 0;
+}
+
+/* line 31, ../sass/layout.scss */
+a {
+  color: #0778ab;
+}
+/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:visited {
+  color: #900099;
+}
+/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:focus {
+  color: #fc5f5f;
+}
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:hover {
+  color: #fc5f5f;
+}
+/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+a:active {
+  color: #fc5f5f;
+}
+
+/* line 35, ../sass/layout.scss */
+p {
+  margin: 5px 0;
+}
+
+/* common layout */
+/* line 40, ../sass/layout.scss */
+.g-layout {
+  position: relative;
+  margin: 0 auto;
+  width: 1000px;
+}
+
+/* line 56, ../sass/layout.scss */
+.header {
+  line-height: 1;
+  position: relative;
+  overflow: hidden;
+  *zoom: 1;
+  background: 86px 0 no-repeat url(../../images/header-bg.jpg) white;
+}
+/* line 62, ../sass/layout.scss */
+.header .header-menu {
+  position: absolute;
+  bottom: 0;
+  left: 260px;
+}
+
+/* line 68, ../sass/layout.scss */
+.header__logo {
+  display: inline;
+  float: left;
+  margin: 0 0 0 52px;
+  padding: 34px 0 0;
+}
+
+/* line 74, ../sass/layout.scss */
+.header__logo__slogan {
+  margin: 5px 0 0;
+  background: 0 0 no-repeat url(../../images/slogan.png) white;
+  height: 0;
+  padding-top: 19px;
+  font-size: 0;
+  text-indent: -6000px;
+  width: 100%;
+}
+
+/* line 81, ../sass/layout.scss */
+.header__title {
+  position: absolute;
+  background: #fff;
+  top: 0;
+  left: 371px;
+  height: 43px;
+  line-height: 43px;
+  width: 258px;
+  border: 2px solid #c6c7c7;
+  border-top: none;
+  -moz-border-radius-bottomleft: 10px;
+  -webkit-border-bottom-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  -moz-border-radius-bottomright: 10px;
+  -webkit-border-bottom-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  text-align: center;
+  -webkit-box-shadow: #c6c7c7 0px 0px 8px;
+  -moz-box-shadow: #c6c7c7 0px 0px 8px;
+  box-shadow: #c6c7c7 0px 0px 8px;
+  font-size: 10pt;
+}
+
+/* line 96, ../sass/layout.scss */
+.header__content {
+  display: inline;
+  float: right;
+  margin: 20px 0 0;
+}
+
+/* line 101, ../sass/layout.scss */
+.header__content__right {
+  width: 240px;
+  background: right 15px no-repeat url(../../images/header-right-bg.png);
+}
+
+/* line 107, ../sass/layout.scss */
+.header__content__right__phone {
+  font-size: 18pt;
+  color: #000000;
+}
+
+/* line 111, ../sass/layout.scss */
+.header__content__right__action {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 114, ../sass/layout.scss */
+.header__content__right__action__text {
+  font-size: 12pt;
+  display: inline;
+  float: left;
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin: 21px 0 0;
+}
+
+/* line 123, ../sass/layout.scss */
+.header__content__right__action__label {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  margin: 21px 30px 0 0;
+  display: inline;
+  float: right;
+}
+/* line 129, ../sass/layout.scss */
+.header__content__right__action__label img {
+  vertical-align: middle;
+}
+
+/* line 139, ../sass/layout.scss */
+.center {
+  margin: 28px 0 0;
+}
+
+/* footer */
+/* line 144, ../sass/layout.scss */
+.footer {
+  margin: 10px 0 0;
+  padding: 26px 33px 12px 33px;
+  background: -4px 0 repeat-x url(../../images/footer-bg.png) #0778ab;
+}
+
+/* line 149, ../sass/layout.scss */
+.footer__top {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 152, ../sass/layout.scss */
+.footer__top__catalog {
+  display: inline;
+  float: left;
+}
+/* line 154, ../sass/layout.scss */
+.footer__top__catalog ul {
+  list-style: none inside;
+  margin: 0 0 0 31px;
+  color: #3da4d2;
+}
+/* line 158, ../sass/layout.scss */
+.footer__top__catalog ul a {
+  color: #3da4d2;
+}
+/* line 162, ../sass/layout.scss */
+.footer__top__catalog ul > li:before {
+  content: "\2043";
+  margin-right: 1ex;
+}
+
+/* line 167, ../sass/layout.scss */
+.footer__top__links {
+  display: inline;
+  float: left;
+  margin: 0 0 0 70px;
+}
+
+/* line 171, ../sass/layout.scss */
+.footer__top__contacts {
+  display: inline;
+  float: right;
+  color: #5fbde7;
+}
+
+/* line 175, ../sass/layout.scss */
+.footer__top__contacts__phone {
+  font-size: 14pt;
+}
+
+/* line 178, ../sass/layout.scss */
+.footer__top__contacts__email {
+  font-size: 14pt;
+}
+
+/* line 181, ../sass/layout.scss */
+.footer__bottom {
+  overflow: hidden;
+  *zoom: 1;
+  margin: 27px 0 0 0;
+  color: #fff;
+}
+
+/* line 186, ../sass/layout.scss */
+.footer__bottom__left {
+  display: inline;
+  float: left;
+}
+
+/* line 189, ../sass/layout.scss */
+.footer__bottom__right {
+  display: inline;
+  float: right;
+}
+
+/* home */
+/* line 199, ../sass/layout.scss */
+.home__info {
+  overflow: hidden;
+  *zoom: 1;
+  line-height: 1;
+}
+
+/* line 203, ../sass/layout.scss */
+.home__info__name {
+  display: inline;
+  float: left;
+  margin: 0 50px 0 5px;
+}
+
+/* dots header */
+/* line 213, ../sass/layout.scss */
+.header-dots {
+  background: 0 center repeat-x url(../../images/header-bg.png);
+  font-size: 23pt;
+  color: #0778ab;
+  padding: 0 0 0 40px;
+}
+/* line 218, ../sass/layout.scss */
+.header-dots b {
+  background-color: #fff;
+  padding: 0 24px;
+}
+
+/* price */
+/* line 229, ../sass/layout.scss */
+.price__sign {
+  font-family: "Rubl-Verdana";
+  font-style: italic;
+}
+
+/* line 233, ../sass/layout.scss */
+.price__dot {
+  position: absolute;
+  text-indent: -1000em;
+}
+
+/* line 237, ../sass/layout.scss */
+.price__big {
+  font-size: 16pt;
+}
+
+/* line 240, ../sass/layout.scss */
+.price__small_italic {
+  font-size: 10pt;
+}
+
+/* button */
+/* line 245, ../sass/layout.scss */
+.button {
+  cursor: pointer;
+  border: none;
+}
+
+/* line 249, ../sass/layout.scss */
+.button_buy {
+  width: 61px;
+  height: 26px;
+  line-height: 26px;
+  background: 0 0 no-repeat url(../../images/button-buy.png);
+  color: #000;
+  margin: 0 0 0 3px;
+  font-size: 9pt;
+}
+/* line 257, ../sass/layout.scss */
+.button_buy:hover {
+  background-position: -61px 0;
+}
+/* line 260, ../sass/layout.scss */
+.button_buy:active {
+  background-position: -122px 0;
+}
