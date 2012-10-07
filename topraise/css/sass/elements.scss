@@ -11,6 +11,9 @@
         @include inline-block;
         margin: 0 40px 0 0;
         font-size: 11pt;
+        a{
+            @include link-colors(#000, $aHoverColor, $aActiveColor, #000, $aFocusColor);
+        }
     }
 }
 
@@ -33,6 +36,9 @@
         text-align: center;
         p{
             margin: 0px 0;
+        }
+        a{
+            @include link-colors(#3d3d3d, $aHoverColor, $aActiveColor, #3d3d3d, $aFocusColor);
         }
     }
     .cartbar__icon{

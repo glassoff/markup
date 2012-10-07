@@ -77,9 +77,11 @@ p {
   float: left;
   margin: 0 0 0 52px;
   padding: 34px 0 0;
+  width: 163px;
+  text-align: center;
 }
 
-/* line 74, ../sass/layout.scss */
+/* line 76, ../sass/layout.scss */
 .header__logo__slogan {
   margin: 5px 0 0;
   background: 0 0 no-repeat url(../../images/slogan.png) white;
@@ -90,7 +92,7 @@ p {
   width: 100%;
 }
 
-/* line 81, ../sass/layout.scss */
+/* line 83, ../sass/layout.scss */
 .header__title {
   position: absolute;
   background: #fff;
@@ -114,32 +116,32 @@ p {
   font-size: 10pt;
 }
 
-/* line 96, ../sass/layout.scss */
+/* line 98, ../sass/layout.scss */
 .header__content {
   display: inline;
   float: right;
   margin: 20px 0 0;
 }
 
-/* line 101, ../sass/layout.scss */
+/* line 103, ../sass/layout.scss */
 .header__content__right {
   width: 240px;
   background: right 15px no-repeat url(../../images/header-right-bg.png);
 }
 
-/* line 107, ../sass/layout.scss */
+/* line 109, ../sass/layout.scss */
 .header__content__right__phone {
   font-size: 18pt;
   color: #000000;
 }
 
-/* line 111, ../sass/layout.scss */
+/* line 113, ../sass/layout.scss */
 .header__content__right__action {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 114, ../sass/layout.scss */
+/* line 116, ../sass/layout.scss */
 .header__content__right__action__text {
   font-size: 12pt;
   display: inline;
@@ -150,7 +152,7 @@ p {
   margin: 21px 0 0;
 }
 
-/* line 123, ../sass/layout.scss */
+/* line 125, ../sass/layout.scss */
 .header__content__right__action__label {
   display: block;
   height: 30px;
@@ -159,76 +161,113 @@ p {
   display: inline;
   float: right;
 }
-/* line 129, ../sass/layout.scss */
+/* line 131, ../sass/layout.scss */
 .header__content__right__action__label img {
   vertical-align: middle;
 }
 
-/* line 139, ../sass/layout.scss */
+/* line 141, ../sass/layout.scss */
 .center {
   margin: 28px 0 0;
 }
 
 /* footer */
-/* line 144, ../sass/layout.scss */
+/* line 146, ../sass/layout.scss */
 .footer {
   margin: 10px 0 0;
   padding: 26px 33px 12px 33px;
   background: -4px 0 repeat-x url(../../images/footer-bg.png) #0778ab;
 }
 
-/* line 149, ../sass/layout.scss */
+/* line 151, ../sass/layout.scss */
 .footer__top {
   overflow: hidden;
   *zoom: 1;
 }
 
-/* line 152, ../sass/layout.scss */
+/* line 154, ../sass/layout.scss */
 .footer__top__catalog {
   display: inline;
   float: left;
 }
-/* line 154, ../sass/layout.scss */
+/* line 156, ../sass/layout.scss */
 .footer__top__catalog ul {
   list-style: none inside;
   margin: 0 0 0 31px;
   color: #3da4d2;
 }
-/* line 158, ../sass/layout.scss */
+/* line 160, ../sass/layout.scss */
 .footer__top__catalog ul a {
   color: #3da4d2;
 }
-/* line 162, ../sass/layout.scss */
+/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__catalog ul a:visited {
+  color: #3da4d2;
+}
+/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__catalog ul a:focus {
+  color: #fc5f5f;
+}
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__catalog ul a:hover {
+  color: #fc5f5f;
+}
+/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__catalog ul a:active {
+  color: #fc5f5f;
+}
+/* line 164, ../sass/layout.scss */
 .footer__top__catalog ul > li:before {
   content: "\2043";
   margin-right: 1ex;
 }
 
-/* line 167, ../sass/layout.scss */
+/* line 169, ../sass/layout.scss */
 .footer__top__links {
   display: inline;
   float: left;
   margin: 0 0 0 70px;
 }
+/* line 172, ../sass/layout.scss */
+.footer__top__links a {
+  color: #5fbde7;
+  text-decoration: none;
+}
+/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__links a:visited {
+  color: #5fbde7;
+}
+/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__links a:focus {
+  color: #fc5f5f;
+}
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__links a:hover {
+  color: #fc5f5f;
+}
+/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__top__links a:active {
+  color: #fc5f5f;
+}
 
-/* line 171, ../sass/layout.scss */
+/* line 177, ../sass/layout.scss */
 .footer__top__contacts {
   display: inline;
   float: right;
   color: #5fbde7;
 }
 
-/* line 175, ../sass/layout.scss */
+/* line 181, ../sass/layout.scss */
 .footer__top__contacts__phone {
   font-size: 14pt;
 }
 
-/* line 178, ../sass/layout.scss */
+/* line 184, ../sass/layout.scss */
 .footer__top__contacts__email {
   font-size: 14pt;
 }
 
-/* line 181, ../sass/layout.scss */
+/* line 187, ../sass/layout.scss */
 .footer__bottom {
   overflow: hidden;
   *zoom: 1;
@@ -236,27 +275,48 @@ p {
   color: #fff;
 }
 
-/* line 186, ../sass/layout.scss */
+/* line 192, ../sass/layout.scss */
 .footer__bottom__left {
   display: inline;
   float: left;
 }
 
-/* line 189, ../sass/layout.scss */
+/* line 195, ../sass/layout.scss */
 .footer__bottom__right {
   display: inline;
   float: right;
+  color: #94c5db;
+}
+/* line 198, ../sass/layout.scss */
+.footer__bottom__right a {
+  color: #94c5db;
+}
+/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__bottom__right a:visited {
+  color: #94c5db;
+}
+/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__bottom__right a:focus {
+  color: #fc5f5f;
+}
+/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__bottom__right a:hover {
+  color: #fc5f5f;
+}
+/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+.footer__bottom__right a:active {
+  color: #fc5f5f;
 }
 
 /* home */
-/* line 199, ../sass/layout.scss */
+/* line 209, ../sass/layout.scss */
 .home__info {
   overflow: hidden;
   *zoom: 1;
   line-height: 1;
 }
 
-/* line 203, ../sass/layout.scss */
+/* line 213, ../sass/layout.scss */
 .home__info__name {
   display: inline;
   float: left;
@@ -264,50 +324,50 @@ p {
 }
 
 /* dots header */
-/* line 213, ../sass/layout.scss */
+/* line 223, ../sass/layout.scss */
 .header-dots {
-  background: 0 center repeat-x url(../../images/header-bg.png);
+  background: 0 19px repeat-x url(../../images/header-bg.png);
   font-size: 23pt;
   color: #0778ab;
   padding: 0 0 0 40px;
 }
-/* line 218, ../sass/layout.scss */
+/* line 228, ../sass/layout.scss */
 .header-dots b {
   background-color: #fff;
-  padding: 0 24px;
+  padding: 0 17px 0 24px;
 }
 
 /* price */
-/* line 229, ../sass/layout.scss */
+/* line 239, ../sass/layout.scss */
 .price__sign {
   font-family: "Rubl-Verdana";
   font-style: italic;
 }
 
-/* line 233, ../sass/layout.scss */
+/* line 243, ../sass/layout.scss */
 .price__dot {
   position: absolute;
   text-indent: -1000em;
 }
 
-/* line 237, ../sass/layout.scss */
+/* line 247, ../sass/layout.scss */
 .price__big {
   font-size: 16pt;
 }
 
-/* line 240, ../sass/layout.scss */
+/* line 250, ../sass/layout.scss */
 .price__small_italic {
   font-size: 10pt;
 }
 
 /* button */
-/* line 245, ../sass/layout.scss */
+/* line 255, ../sass/layout.scss */
 .button {
   cursor: pointer;
   border: none;
 }
 
-/* line 249, ../sass/layout.scss */
+/* line 259, ../sass/layout.scss */
 .button_buy {
   width: 61px;
   height: 26px;
@@ -317,11 +377,11 @@ p {
   margin: 0 0 0 3px;
   font-size: 9pt;
 }
-/* line 257, ../sass/layout.scss */
+/* line 267, ../sass/layout.scss */
 .button_buy:hover {
   background-position: -61px 0;
 }
-/* line 260, ../sass/layout.scss */
+/* line 270, ../sass/layout.scss */
 .button_buy:active {
   background-position: -122px 0;
 }
