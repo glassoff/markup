@@ -434,3 +434,10 @@
 .footer-icon_all-news {
   background-position: 0 -23px;
 }
+
+/* content */
+/* line 246, ../sass/elements.scss */
+.content__header {
+  font-size: 36pt;
+  color: #4bb2e1;
+}

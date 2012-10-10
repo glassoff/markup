@@ -218,6 +218,26 @@ p{
 
         }
 
+/* page */
+.page{
+
+}
+    .page__banner{
+
+    }
+    .page__middle{
+        @include clearfix;
+    }
+        .page__middle__left{
+            @include float-left;
+            width:288px;
+
+            @include debug;
+        }
+        .page__middle__right{
+            @include float-left;
+        }
+
 
 /* dots header */
 .header-dots{

@@ -323,51 +323,72 @@ p {
   margin: 0 50px 0 5px;
 }
 
+/* page */
+/* line 228, ../sass/layout.scss */
+.page__middle {
+  overflow: hidden;
+  *zoom: 1;
+}
+
+/* line 231, ../sass/layout.scss */
+.page__middle__left {
+  display: inline;
+  float: left;
+  width: 288px;
+  outline: 1px solid black;
+}
+
+/* line 237, ../sass/layout.scss */
+.page__middle__right {
+  display: inline;
+  float: left;
+}
+
 /* dots header */
-/* line 223, ../sass/layout.scss */
+/* line 243, ../sass/layout.scss */
 .header-dots {
   background: 0 19px repeat-x url(../../images/header-bg.png);
   font-size: 23pt;
   color: #0778ab;
   padding: 0 0 0 40px;
 }
-/* line 228, ../sass/layout.scss */
+/* line 248, ../sass/layout.scss */
 .header-dots b {
   background-color: #fff;
   padding: 0 17px 0 24px;
 }
 
 /* price */
-/* line 239, ../sass/layout.scss */
+/* line 259, ../sass/layout.scss */
 .price__sign {
   font-family: "Rubl-Verdana";
   font-style: italic;
 }
 
-/* line 243, ../sass/layout.scss */
+/* line 263, ../sass/layout.scss */
 .price__dot {
   position: absolute;
   text-indent: -1000em;
 }
 
-/* line 247, ../sass/layout.scss */
+/* line 267, ../sass/layout.scss */
 .price__big {
   font-size: 16pt;
 }
 
-/* line 250, ../sass/layout.scss */
+/* line 270, ../sass/layout.scss */
 .price__small_italic {
   font-size: 10pt;
 }
 
 /* button */
-/* line 255, ../sass/layout.scss */
+/* line 275, ../sass/layout.scss */
 .button {
   cursor: pointer;
   border: none;
 }
 
-/* line 259, ../sass/layout.scss */
+/* line 279, ../sass/layout.scss */
 .button_buy {
   width: 61px;
   height: 26px;
@@ -377,11 +398,11 @@ p {
   margin: 0 0 0 3px;
   font-size: 9pt;
 }
-/* line 267, ../sass/layout.scss */
+/* line 287, ../sass/layout.scss */
 .button_buy:hover {
   background-position: -61px 0;
 }
-/* line 270, ../sass/layout.scss */
+/* line 290, ../sass/layout.scss */
 .button_buy:active {
   background-position: -122px 0;
 }
