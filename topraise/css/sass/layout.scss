@@ -220,7 +220,7 @@ p{
 
 /* page */
 .page{
-
+    @include debug;
 }
     .page__banner{
 
@@ -230,12 +230,13 @@ p{
     }
         .page__middle__left{
             @include float-left;
-            width:288px;
-
+            width:276px;
+            margin: 0 0 0 12px;
             @include debug;
         }
         .page__middle__right{
             @include float-left;
+            width:712px;
         }
 
 

@@ -249,6 +249,20 @@
     }
 
 
-
+/* icon item */
+.icon-item{
+    height: 31px;
+    line-height: 31px;
+    padding: 0 0 0 36px;
+    margin: 0 0 5px 0;
+    color: #5fbde7;
+    background: 0 0 no-repeat url(../../images/icon-items.png);
+}
+.icon-item_new{
+    background-position: 0 0;
+}
+.icon-item_best{
+    background-position: 0 -31px;
+}
 
 

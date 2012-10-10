@@ -1,4 +1,3 @@
-@charset "IBM866";
 /* ruble fonts */
 @font-face {
   font-family: 'Rubl-Verdana';
@@ -26,19 +25,19 @@ button::-moz-focus-inner {
 a {
   color: #0778ab;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:visited {
   color: #900099;
 }
-/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:focus {
   color: #fc5f5f;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:hover {
   color: #fc5f5f;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 a:active {
   color: #fc5f5f;
 }
@@ -200,19 +199,19 @@ p {
 .footer__top__catalog ul a {
   color: #3da4d2;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__catalog ul a:visited {
   color: #3da4d2;
 }
-/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__catalog ul a:focus {
   color: #fc5f5f;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__catalog ul a:hover {
   color: #fc5f5f;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__catalog ul a:active {
   color: #fc5f5f;
 }
@@ -233,19 +232,19 @@ p {
   color: #5fbde7;
   text-decoration: none;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__links a:visited {
   color: #5fbde7;
 }
-/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__links a:focus {
   color: #fc5f5f;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__links a:hover {
   color: #fc5f5f;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__top__links a:active {
   color: #fc5f5f;
 }
@@ -291,19 +290,19 @@ p {
 .footer__bottom__right a {
   color: #94c5db;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__bottom__right a:visited {
   color: #94c5db;
 }
-/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__bottom__right a:focus {
   color: #fc5f5f;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__bottom__right a:hover {
   color: #fc5f5f;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .footer__bottom__right a:active {
   color: #fc5f5f;
 }
@@ -324,6 +323,11 @@ p {
 }
 
 /* page */
+/* line 222, ../sass/layout.scss */
+.page {
+  outline: 1px solid black;
+}
+
 /* line 228, ../sass/layout.scss */
 .page__middle {
   overflow: hidden;
@@ -334,7 +338,8 @@ p {
 .page__middle__left {
   display: inline;
   float: left;
-  width: 288px;
+  width: 276px;
+  margin: 0 0 0 12px;
   outline: 1px solid black;
 }
 
@@ -342,53 +347,54 @@ p {
 .page__middle__right {
   display: inline;
   float: left;
+  width: 712px;
 }
 
 /* dots header */
-/* line 243, ../sass/layout.scss */
+/* line 244, ../sass/layout.scss */
 .header-dots {
   background: 0 19px repeat-x url(../../images/header-bg.png);
   font-size: 23pt;
   color: #0778ab;
   padding: 0 0 0 40px;
 }
-/* line 248, ../sass/layout.scss */
+/* line 249, ../sass/layout.scss */
 .header-dots b {
   background-color: #fff;
   padding: 0 17px 0 24px;
 }
 
 /* price */
-/* line 259, ../sass/layout.scss */
+/* line 260, ../sass/layout.scss */
 .price__sign {
   font-family: "Rubl-Verdana";
   font-style: italic;
 }
 
-/* line 263, ../sass/layout.scss */
+/* line 264, ../sass/layout.scss */
 .price__dot {
   position: absolute;
   text-indent: -1000em;
 }
 
-/* line 267, ../sass/layout.scss */
+/* line 268, ../sass/layout.scss */
 .price__big {
   font-size: 16pt;
 }
 
-/* line 270, ../sass/layout.scss */
+/* line 271, ../sass/layout.scss */
 .price__small_italic {
   font-size: 10pt;
 }
 
 /* button */
-/* line 275, ../sass/layout.scss */
+/* line 276, ../sass/layout.scss */
 .button {
   cursor: pointer;
   border: none;
 }
 
-/* line 279, ../sass/layout.scss */
+/* line 280, ../sass/layout.scss */
 .button_buy {
   width: 61px;
   height: 26px;
@@ -398,11 +404,11 @@ p {
   margin: 0 0 0 3px;
   font-size: 9pt;
 }
-/* line 287, ../sass/layout.scss */
+/* line 288, ../sass/layout.scss */
 .button_buy:hover {
   background-position: -61px 0;
 }
-/* line 290, ../sass/layout.scss */
+/* line 291, ../sass/layout.scss */
 .button_buy:active {
   background-position: -122px 0;
 }

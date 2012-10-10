@@ -14,19 +14,19 @@
 .header-menu li a {
   color: black;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header-menu li a:visited {
   color: black;
 }
-/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header-menu li a:focus {
   color: #fc5f5f;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header-menu li a:hover {
   color: #fc5f5f;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .header-menu li a:active {
   color: #fc5f5f;
 }
@@ -60,19 +60,19 @@
 .cartbar__content a {
   color: #3d3d3d;
 }
-/* line 18, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 18, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .cartbar__content a:visited {
   color: #3d3d3d;
 }
-/* line 21, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 21, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .cartbar__content a:focus {
   color: #fc5f5f;
 }
-/* line 24, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 24, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .cartbar__content a:hover {
   color: #fc5f5f;
 }
-/* line 27, C:/Ruby193/lib/ruby/gems/1.9.1/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
+/* line 27, ../../../../../../../Library/Ruby/Gems/1.8/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/typography/links/_link-colors.scss */
 .cartbar__content a:active {
   color: #fc5f5f;
 }
@@ -440,4 +440,25 @@
 .content__header {
   font-size: 36pt;
   color: #4bb2e1;
+}
+
+/* icon item */
+/* line 253, ../sass/elements.scss */
+.icon-item {
+  height: 31px;
+  line-height: 31px;
+  padding: 0 0 0 36px;
+  margin: 0 0 5px 0;
+  color: #5fbde7;
+  background: 0 0 no-repeat url(../../images/icon-items.png);
+}
+
+/* line 261, ../sass/elements.scss */
+.icon-item_new {
+  background-position: 0 0;
+}
+
+/* line 264, ../sass/elements.scss */
+.icon-item_best {
+  background-position: 0 -31px;
 }
